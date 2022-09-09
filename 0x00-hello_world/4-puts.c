@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main- Serves as the entry point for the program
+ * main-main entry point
  *
- * Return: By default returns zero if no errors otherwise returns non-zero value
+ * Description: Prints the write up followin puts
+ *
+ * Return: Always 0 (succes)
  */
 int main(void)
 {

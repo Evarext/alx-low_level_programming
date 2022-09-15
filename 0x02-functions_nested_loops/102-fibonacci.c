@@ -8,24 +8,24 @@
 
 int main(void)
 {
-	int i = 0;
+	int i;
 
-	long int a = 0, b = 1, next;
+	unsigned long a = 0, b = 1, next;
 
-	while (i < 50)
+	for (i = 0, i < 50, i++)
 	{
 		next = a + b;
+
+		printf("%lu", next);
 		a = b;
 		b = next;
 
-		printf("%lu", next);
-
-		if (i < 49)
+		if (i == 49)
 		{
-			printf(",");
+			printf("\n");
 		}
-		i++;
+		else
+			print(", ");
 	}
-	putchar('\n');
 	return (0);
 }

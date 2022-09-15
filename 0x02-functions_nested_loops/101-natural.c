@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.io>
+#include <stdlib.h>
 
 /**
  * main - this function computes and prints the sum of all

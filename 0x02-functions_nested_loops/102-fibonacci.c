@@ -12,7 +12,7 @@ int main(void)
 
 	unsigned long a = 0, b = 1, next;
 
-	for (i = 0, i < 50, i++)
+	for (i = 0; i < 50; i++)
 	{
 		next = a + b;
 
@@ -25,7 +25,7 @@ int main(void)
 			printf("\n");
 		}
 		else
-			print(", ");
+			printf(", ");
 	}
 	return (0);
 }

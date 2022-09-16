@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H_INCLUDED
-#define HOLBERTON_H_INCLUDED
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
 
@@ -8,4 +8,4 @@ int largest_number(int, int, int);
 void print_remaining_days(int, int, int);
 int convert_day(int, int);
 
-#endif
+#endif/*MAIN_H*/

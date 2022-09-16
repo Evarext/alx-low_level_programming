@@ -1,1 +1,1 @@
-This repo is about more codes on nested loops.
+is repo is about more codes on nested loops.
